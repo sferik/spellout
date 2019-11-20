@@ -41,7 +41,7 @@ class PhoneticAlphabetizer
     'Z' => "Zulu",
   }
 
-  def initialize(text)
+  def initialize(text : String)
     @text = text
   end
 
